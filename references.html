@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <style>   
+    legend {
+      background-color: gray;
+      color: white;
+      padding: 5px 10px;
+    }
+  </style>
+
+  <title>References</title>
+
+   <!-- Leaflet CSS -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+   integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+   crossorigin=""/>
+ 
+  <!-- Leaflet JavaScript code -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+  crossorigin=""></script>
+
+  <!-- Bootstrap Code -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"integrity="sha384xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css"integrity="sha384qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK"crossorigin="anonymous">
+
+ 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+   <!-- D3 Library -->
+   <script src="https://d3js.org/d3.v5.min.js"></script>
+
+   <!-- JavaScript -->
+   <!-- <script type="text/javascript" src="js/data.js"></script>     -->
+
+   <!-- Our CSS -->
+   <link rel="stylesheet" type="text/css" href="css/referenes.css">
+
+</head>
+
+<body>
+
+     <!-- Start of navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+  
+          <a class="navbar-brand" href="home.html">Russia's Invasion of Ukraine</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+  
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav ml-auto">
+              
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dashboards</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="sunburst.html">Sunburst Graph</a>
+                        <a class="dropdown-item" href="graphs.html">Other Graphs</a>
+                    </div>
+                </li>
+  
+              <li class="nav-item">
+                  <a class="nav-link" href="map.html">Map</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+  
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Data</a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="data.html">Data Tables</a>
+                      <a class="dropdown-item" href="references.html">References</a>
+                  </ul>
+              </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <!-- End of navbar -->
+    
+      <br>
+
+      <!-- filters box -->
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-md-12 text-center">
+
+                <div class="card bg-light mb-3">
+                    <div class="card-header"><h4>Data Table Reference</h4></div>
+
+                    <div class="card-body">
+
+                        <div class="container-fluid">
+
+                            <div class = "row">
+
+                                <div class="col-md-6 text-left">
+                                
+                                    <p style="color:black;">We would like to acknowledge the Armed Conflict Location & Event Data Project, or ACLED, for
+                                        providing the information that we used in our displays. You are able to download our data set
+                                        at this <a href="https://acleddata.com/" style = color:blue;>website</a>.
+                                    </p>
+                                
+                                    <p style="color:black;">You may also learn more about the war at the links below:</p>
+
+                                    <ol>
+                                      <li><a href="https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine" style = color:blue;>https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine</a></li>
+                                      <li><a href="https://www.nytimes.com/news-event/ukraine-russia" style = color:blue;>https://www.nytimes.com/news-event/ukraine-russia</a></li>
+                                    </ol>
+                                </div>
+
+                                <div class="col-md-6 text-left">
+                                
+                                    <img src="images/acledmap.png" style = width:100%;>
+                                
+                                </div>                                                         
+
+                            </div>  
+                            
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+
+            </div>
+    
+        </div>
+
+      </div>
+
+    <!-- end filters box -->
+  
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                
+
+
+                
+            </div>
+
+        </div>
+  
+
+    </div>
+  
+</body>
+
+</html>
