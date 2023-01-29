@@ -59,8 +59,8 @@ function filterdata(data) {
     sel_month = d3.select("#selmonthset").node().value;
     sel_source = d3.select("#selsourceset").node().value;
     sel_instigator = d3.select("#selinstigatorset").node().value;
-    min_fatal = d3.select("#selminfatalset").node().value;
-    max_fatal = d3.select("#selmaxfatalset").node().value;
+    min_fatal = parseInt(d3.select("#selminfatalset").node().value);
+    max_fatal = parseInt(d3.select("#selmaxfatalset").node().value);
 
     var dataf = data;
 
